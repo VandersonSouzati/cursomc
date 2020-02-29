@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import br.com.cursomc.services.exceptions.ObjectNotFoundException;
 
-//Essa classe vai Interceptar as exceções(Para não ficar no reources) 
+//Essa classe vai Interceptar as exceções(Para não ficar no resources) 
 @ControllerAdvice
 public class ResourceExceptionHandler {
 
